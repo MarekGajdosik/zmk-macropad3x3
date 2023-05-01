@@ -1,2 +1,2 @@
-config SHILED_MAREKMACROPAD
-    def_bool $(shileds_list_contains, MarekMacropad)
+config SHIELD_MAREKMACROPAD
+    def_bool $(shields_list_contains, MarekMacropad)

@@ -1,4 +1,4 @@
-if SHILED_MAREKMACROPAD
+if SHIELD_MAREKMACROPAD
 
 config ZMK_KEYBOARD_NAME
     default "MarekMacropad"
