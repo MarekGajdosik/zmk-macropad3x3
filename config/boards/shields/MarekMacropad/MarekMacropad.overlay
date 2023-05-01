@@ -1,9 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    &left_encoder {
+    left_encoder {
         status = "okay";
-        label = "rot__kp";
+        label = "rot_kp";
         a-gpios = <&pro_micro 18>;
         b-gpios = <&pro_micro 19>;
     };
