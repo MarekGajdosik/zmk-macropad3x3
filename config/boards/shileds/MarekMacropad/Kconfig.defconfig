@@ -1,0 +1,6 @@
+if SHILED_MAREKMACROPAD
+
+config ZMK_KEYBOARD_NAME
+    default "MarekMacropad"
+
+endif

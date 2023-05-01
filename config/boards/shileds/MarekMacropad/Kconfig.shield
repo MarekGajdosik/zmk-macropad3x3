@@ -1,0 +1,2 @@
+config SHILED_MAREKMACROPAD
+    def_bool $(shileds_list_contains, MarekMacropad)
