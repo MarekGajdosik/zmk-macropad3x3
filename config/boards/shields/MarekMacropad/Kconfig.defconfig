@@ -5,5 +5,24 @@ config ZMK_KEYBOARD_NAME
 
 endif
 
+##########################
+# ROT ENCODER
+
 CONFIG_EC11=y
 CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
+
+##########################
+# DISPLAY
+
+if ZMK_DISPLAY
+
+config I2C
+    default y
+
+config SSD1306
+    default y
+
+config SSD1306_REVERSE_MODE
+    default y
+
+endif # ZMK_DISPLAY
