@@ -5,7 +5,7 @@
         compatible = "alps,ec11";
         label = "encoder";
         resolution = <4>;
-        status = "enabled";
+        status = "ok";
     };
 
     chosen {
