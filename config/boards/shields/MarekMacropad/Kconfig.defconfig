@@ -6,12 +6,6 @@ config ZMK_KEYBOARD_NAME
 endif
 
 ##########################
-# ROT ENCODER
-
-CONFIG_EC11=y
-CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
-
-##########################
 # DISPLAY
 
 if ZMK_DISPLAY
