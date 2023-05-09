@@ -5,10 +5,6 @@
 / {
     keymap {
         compatible = "zmk,keymap";
-        
-        base {
-            sensor-bindings = <&rot_kp C_VOL_UP C_VOL_DN>;
-        };
 
         default_layer {
             bindings = <
