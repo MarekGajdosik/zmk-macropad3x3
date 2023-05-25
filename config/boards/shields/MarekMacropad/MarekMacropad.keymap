@@ -23,7 +23,7 @@
                 &none           &bootloader     &mo 0
                 &none           &none           &bt BT_CLR
                 &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2
-                                                                none
+                                                                &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
